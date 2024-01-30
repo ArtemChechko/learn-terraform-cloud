@@ -1,13 +1,13 @@
 terraform {
-
+/*
   cloud {
-    organization = "organization-name"
+    organization = "Learning_terraform2024"
 
     workspaces {
       name = "learn-terraform-cloud"
     }
   }
-
+*/
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -15,5 +15,5 @@ terraform {
     }
   }
 
-  required_version = "~> 1.2"
+  required_version = "~> 1.3"
 }
